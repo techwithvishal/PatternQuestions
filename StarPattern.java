@@ -14,7 +14,7 @@
 //}
 
 
-//-------Reverse Right Triangle---------
+//-------Reverse Right Triangle-----------------------------------------------------------------------------------
 
 public  class StarPattern {
     public static void main(String[] args){
