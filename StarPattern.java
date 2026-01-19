@@ -1,5 +1,5 @@
 
-//  --------Right Triangle ------
+//  1) --------Right Triangle ------
 
 //public class StarPattern{
 //    public static void main(String[] args) {
@@ -14,7 +14,7 @@
 //}
 
 
-//-------Reverse Right Triangle-----------------------------------------------------------------------------------
+//   2) ------Reverse Right Triangle-----------------------------------------------------------------------------------
 
 //public  class StarPattern {
 //    public static void main(String[] args){
@@ -29,20 +29,38 @@
 //    }
 //}
 
-//-------------- dono ka combination half right triangle + half reverse triangle
+//    3)---------- dono ka combination half right triangle + half reverse triangle
 
-public class StarPattern {
-    public static void main (String[] args) {
-        for (int i=1; i<=5; i++){
-            for(int j=1; j<=i; j++){
-                System.out.print("*");
+//public class StarPattern {
+//    public static void main (String[] args) {
+//        for (int i=1; i<=5; i++){
+//            for(int j=1; j<=i; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//
+//        for(int i=1; i<=5; i++){
+//            for(int j= 4; j>=i; j--){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+
+//    Ques 4)  space wala
+
+    public class StarPattern {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+
+            for (int j = 4; j >= i; j--) {
+                System.out.print(" ");
             }
-            System.out.println();
-        }
-
-        for(int i=1; i<=5; i++){
-            for(int j= 4; j>=i; j--){
+            for (int k = 1; k <= i; k++) {
                 System.out.print("*");
+
             }
             System.out.println();
         }
